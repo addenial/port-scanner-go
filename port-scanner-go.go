@@ -183,6 +183,6 @@ func scanPort(
 
 	}
 
-	fmt.Printf("[+] Port %s/TCP is open\n", port)
+	fmt.Printf("[+] %s Port %s/TCP is open\n", targetIP, port)
 	
 }
