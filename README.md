@@ -24,6 +24,10 @@ Run
         ./port-scanner-go --ip 192.168.1.1 --port 80,443,22
 
 
+
+run against ip-address list from a file (1 per line)
+for /F %i in (hi.txt) do port-scanner-go --ip %i --port 80,53,445,3389
+
 Help
 ----
     usage: port-scanner-go [-h|--help] --ip "<value>" --port "<value>" --timeout <integer>
