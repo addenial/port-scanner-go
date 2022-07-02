@@ -25,8 +25,10 @@ Run
 
 
 
-run against ip-address list from a file (1 per line)
+run against ip-address list from a file (1 per line) Windows cmd:
+```
 for /F %i in (hi.txt) do port-scanner-go --ip %i --port 80,53,445,3389
+```
 
 Help
 ----
